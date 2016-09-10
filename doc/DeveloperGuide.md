@@ -50,7 +50,7 @@ Priority | As a ... | I want to ... | So that I can...
 `* *` | user | hide [private contact details](#private-contact-detail) by default | to minimize chance of someone else seeing them by accident
 `* *` | user | add tag to a person |  
 `* *` | user | remove tag from a person | remove tag that the person no longer belong to
-`*` | user with multiple address book data | import data from other file | add contacts from other address book data 
+`*` | user with multiple address book data | import data from other file | add contacts from other address book data
 `*` | user with many persons in the address book | sort persons by name | locate a person easily
 
 
@@ -78,6 +78,33 @@ Use case ends.
 
 > 3a1. AddressBook shows an error message <br>
   Use case resumes at step 2
+
+#### Use case: Edit tag
+
+**MSS**
+
+1. User requests to list tags
+2. AddressBook shows a list of tags
+3. User requests to edit a specific tag in the list
+4. AddressBook confirms the change with the user
+5. User confirms the change
+6. AddressBook save the change <br>
+Use case ends.
+
+**Extensions**
+
+2a. The list is empty
+
+> Use case ends
+
+3a. The given index is invalid
+
+> 3a1. AddressBook shows an error message <br>
+  Use case resumes at step 2
+
+5a. User cancels the change
+
+> Use case ends
 
 ## Appendix C : Non Functional Requirements
 
