@@ -50,6 +50,7 @@ Priority | As a ... | I want to ... | So that I can...
 `* *` | user | hide [private contact details](#private-contact-detail) by default | to minimize chance of someone else seeing them by accident
 `* *` | user | add tag to a person |  
 `* *` | user | remove tag from a person | remove tag that the person no longer belong to
+`* *` | user | rename tag | update the name of the tag without the need to delete and a new tag instead
 `*` | user with multiple address book data | import data from other file | add contacts from other address book data
 `*` | user with many persons in the address book | sort persons by name | locate a person easily
 
