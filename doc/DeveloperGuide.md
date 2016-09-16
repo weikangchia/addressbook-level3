@@ -113,8 +113,9 @@ Use case ends.
 2. Should be able to hold up to 1000 persons.
 3. Should come with automated unit tests and open source code.
 4. Should favor DOS style commands over Unix-style commands.
-5. Should be able to sort any data in runtime no worst than O(nlogn).
+5. Should work without requiring an installer.
 6. Should have a user-friendly user interface.
+7. Should store the data locally.
 
 ## Appendix D : Glossary
 
