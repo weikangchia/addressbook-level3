@@ -1,9 +1,21 @@
 package seedu.addressbook.storage;
 
 import seedu.addressbook.data.AddressBook;
-import seedu.addressbook.storage.StorageFile.StorageOperationException;
 
+/**
+ * Represents a storage.
+ */
 public abstract class Storage {
+    
+    /**
+     * Signals that some error has occured while trying to convert and read/write data between the application
+     * and the storage file.
+     */
+    public static class StorageOperationException extends Exception {
+        public StorageOperationException(String message) {
+            super(message);
+        }
+    }
     
     /**
      * Saves all data to this storage file.
